@@ -22,12 +22,12 @@ class App extends Component {
 
   render(){
     return (
-      <div className="container">
-              <div className="column is-6">
+      <div className="container msg">
+              <div className="col">
                 <MessageList db={firebase} />
               </div>
             <div className="columns">
-              <div className="column is-6">
+              <div className="col asd">
                 <MessageBox db={firebase} />
               </div>
         </div>

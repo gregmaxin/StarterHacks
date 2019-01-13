@@ -18,6 +18,21 @@
   color: white;
 }
 
+.card {
+  width: 90%
+}
+
+.msg {
+  max-height: 2400px;
+}
+.card-content {
+  font-size:1000px
+}
+
+.asd {
+  font-size:100px; !important
+}
+
 .App-link {
   color: #61dafb;
 }
