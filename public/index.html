@@ -10,7 +10,13 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.">
+      <link rel="stylesheet" href="css/bootstrap.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="stylesheet" href="wraper.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>kidsability Portal</title>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/5.7.3/firebase-app.js"></script>
@@ -53,14 +59,47 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    
+    <p id="load">Firebase SDK Loading&hellip;</p>
+    <div class="topnav">
+			<a class="active" href="file:///Users/k/Desktop/child/index.html">
+				<img href="/" src="images/logo_new.png" alt="KidsAbility" style="margin-top: -30px; margin-left: 30px; width: 600px">
+			</a>
+			<h4 style="margin-bottom:-100px; padding-top:50px; font-size: 150px">Portal</h4>
+			<div style="float: right">
+				<a href="#" id="navbar_options">ABOUT</a>
+				<a href="#" id="navbar_options">CONTACT</a>
+				<a href="faq.html" id="navbar_options">FAQ</a>
+			</div>
+		</div>
     <div id="root">
       <h2>Welcome</h2>
       <h1>Firebase Hosting Setup Complete</h1>
       <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
       <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-
+		<div>
+			<h1 id="welcome">Welcome!</h1>
+			<h2 id="iam">I am a...</h2>
+				<div class="row">
+					<div class="col-sm-2">
+					</div>
+					<div class="col-sm-3">
+  
+            <a href="family.html"> Family Member</a>
+					</div>
+					<div class="col-sm-2">
+					</div>
+					<div class="col-sm-3">
+              <a href="schedule.html"> Healthcare Provider</a>
+					</div>
+					<div class="col-sm-2">
+					</div>
+				</div>
+			<p id="incase">In case of emergency, please call 911 or go to your nearest emergency room
+			</p>
+		</div>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
