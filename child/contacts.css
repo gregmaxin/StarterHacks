@@ -1,0 +1,132 @@
+.topnav {
+	font-size: 100px;
+	color: #E9B221;
+	overflow: hidden;
+	background-color: #BEFFE4;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  font-style: bold;
+  color: black;
+}
+
+.topnav a.active {
+	font-style: bold;
+	background-color: #BEFFE4;
+	color: white;
+}
+
+.paragraph {
+	position: relative;
+	font-family: Comfortaa;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	color: #E9B221;
+	font-size: 100px;
+	width: 5000px;
+	text-align: left;
+	margin-left: 100px;
+	text-shadow: 5px 5px black;
+}
+
+body { 
+  /* The image used */
+  background-image: url("images/nathan-anderson-384356-unsplash.jpg");
+  height: 100%;
+  background-size:cover;
+
+  /* Center and scale the image nicely */
+
+  background-repeat: no-repeat;
+  -moz-transform: scale(0.25, 0.25); /* Moz-browsers */
+  zoom: 0.25; /* Other non-webkit browsers */
+  zoom: 25%; /* Webkit browsers */
+}
+
+.col-sm-3 {
+	text-align: center;
+	font-size: 150px;
+	background: rgba(137, 255, 213, 0.53);
+	border-radius: 50px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+body.background-image {
+	opacity: 0.53;
+
+}
+
+
+#navbar_options {
+	color: #89AD37;
+	font-size: 100px;
+	margin-top: -80px;
+	padding-right:50px;
+	padding-left:50px;
+}
+
+#backgroundimage{
+
+width: 1024px;
+height: 500px;
+background-repeat: no-repeat;
+display: block;
+position: absolute;
+background-position: 0 500px;
+background: url(images/alexandra-seinet-15499-unsplash.jpg);
+}
+
+#welcome {
+position: relative;
+font-family: Comfortaa;
+font-style: normal;
+
+line-height: normal;
+font-size: 500px;
+text-align: center;
+color: #E9B221;
+margin-top: 300px;
+margin-bottom: 150px;
+}
+
+#iam {
+position: relative;
+font-family: Comfortaa;
+font-style: normal;
+
+line-height: normal;
+font-size: 250px;
+text-align: center;
+color: #89AD37;
+margin-bottom: 200px;
+}
+
+
+#incase {
+position: relative;
+font-family: Comfortaa;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 80px;
+text-align: center;
+color: #C83532;
+margin-top: 200px;
+}
+
+
+#opacity_100 {
+	opacity: 1;
+}
