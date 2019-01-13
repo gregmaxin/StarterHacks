@@ -24,7 +24,7 @@ class App extends Component {
   render(){
     return (
       <div className="container">
-            <Header title="Simple Firebase App" />
+            <Header title="kidsability Portal" />
             <div className="columns">
               <div className="column is-3"></div>
               <div className="column is-6">
